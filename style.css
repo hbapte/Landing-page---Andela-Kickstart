@@ -1,0 +1,198 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    padding: 10px 15px;
+}
+
+button {
+    color: #3882F6;
+}
+
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+#hero {
+    height: 100vh;
+}
+
+#hero header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav li {
+    display: inline-flex;
+    margin: 10px;    
+}
+
+.home-container {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.home-content {
+    width: 45%;
+}
+
+.home-picture {
+    width: 50%;
+}
+
+.home-pic {
+    width: 100%;
+}
+
+#hero , footer {
+    background-color: #1F2937;
+}
+nav ul {
+    list-style-type: none;
+
+}
+
+nav li {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.home-content h3{
+    font-size: 43px; 
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+
+.home-content p {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 12px 0;
+    padding-right: 30px;
+    
+}
+
+
+
+
+.home-content button {
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 4px 18px;
+    margin-top: 8px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0px;
+}
+
+#product {
+    margin: 30px;
+}
+
+#product-header h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    margin: 40px 0;
+}
+
+.product-one {
+    background-color: #E5E7EB;
+    margin: 5px;
+}
+
+.product-one p{
+    padding: 6px;
+}
+
+.product {
+    width: 100%;
+}
+
+.product-name {
+    text-align: center;
+    font-weight: 500;
+    margin: 10px;
+}
+
+#testimonial {
+    background-color: #E5E7EB;
+    padding: 120px 100px;
+    
+}
+
+
+
+#testimonial p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#testimonial .author {
+    font-weight: 400;
+    text-align: right;
+
+}
+
+
+
+#contact {
+    background-color: #3882F6;
+    margin: 40px 30px 50px 30px;
+    color: #F9FAF8;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+#contact h3 {
+   margin: 2px 0;
+}
+
+.call {
+    display: flex;
+}
+
+.call button {  
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: 600;
+    font-size: medium;
+    padding: 2px 15px;
+    border: 1px #F9FAF8 solid;
+    border-radius: 6px;
+}
+
+.button {
+    margin: -5px 0 0 50px;
+}
+
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    padding: 8px;
+}
